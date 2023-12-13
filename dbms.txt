@@ -1,0 +1,14 @@
+CREATE DATABASE a2;
+use a2;
+-- Create the Student table
+CREATE TABLE Student (
+    prn INT,
+    name VARCHAR(255),
+    age INT
+);
+
+-- Insert some dummy data
+INSERT INTO Student (prn, name, age) VALUES
+(4, 'John Doe', 20),
+(5, 'Jane Smith', 22),
+(6, 'Bob Johnson', 21);
